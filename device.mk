@@ -34,8 +34,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
 # Sensors
-PRODUCT_PACKAGES += \
-    libnotifyaudiohal:64
+# PRODUCT_PACKAGES += \
+#     libnotifyaudiohal:64
 
 # Wifi
 PRODUCT_PACKAGES += \
